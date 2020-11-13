@@ -4,6 +4,14 @@
 
 \ProvidesPackage{worksheet}
 
+%%%
+%%%     Provided Commands Default Initialisation
+%%%
+\newcommand{\wsauthor}{\textbackslash wsauthor}
+\newcommand{\wsdate}{\textbackslash wsdate}
+\newcommand{\wsclass}{\textbackslash wsclass}
+\newcommand{\wstitle}{\textbackslash wstitle}
+
 
 %%%
 %%%     Package imports
@@ -32,9 +40,9 @@
 %%%     Header and Footer
 %%%
 \pagestyle{fancy}
-\lhead{\hmwkAuthorName}
-\chead{\hmwkDueDate}
-\rhead{\hmwkClass: \hmwkTitle}
+\lhead{\wsauthor}
+\chead{\wsdate}
+\rhead{\wsclass: \wstitle}
 \lfoot{\lastxmark}
 \cfoot{\thepage}
 
