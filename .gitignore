@@ -1,0 +1,7 @@
+#   Latex build files
+example/main.aux
+example/main.fdb_latexmk
+example/main.fls
+example/main.log
+example/main.synctex.gz
+
