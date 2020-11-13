@@ -5,11 +5,18 @@
 \ProvidesPackage{worksheet}
 
 
+%%%
+%%%     Package imports
+%%%
 \usepackage[USenglish]{babel}
 \usepackage{datetime}
 \usepackage{fancyhdr}
 \usepackage{extramarks}
 
+
+%%%
+%%%     Page Layout
+%%%
 \topmargin=-0.45in
 \evensidemargin=0in
 \oddsidemargin=0in
@@ -18,7 +25,12 @@
 \headsep=0.25in
 
 \linespread{1.1}
+\setlength\parindent{0pt}
 
+
+%%%
+%%%     Header and Footer
+%%%
 \pagestyle{fancy}
 \lhead{\hmwkAuthorName}
 \chead{\hmwkDueDate}
@@ -29,9 +41,10 @@
 \renewcommand\headrulewidth{0.4pt}
 \renewcommand\footrulewidth{0.4pt}
 
-\setlength\parindent{0pt}
 
-
+%%%
+%%%     exercise environment
+%%%
 \newenvironment{exercise}[2]{
     {\large \textbf{Exercise #1:} (#2) \newline}
 }{
